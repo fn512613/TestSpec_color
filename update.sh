@@ -8,5 +8,5 @@ git ci -m "${version}"
 git push 
 git tag -a "${version}" -m "${version}版本"
 git push --tags
-pod repo push TestSpec TestSpec_color.podspec --allow-warnings
-pod repo update ~/.cocoapods/repos/TestSpec/
+pod repo push TestSpecs TestSpec_color.podspec --allow-warnings
+pod repo update ~/.cocoapods/repos/TestSpecs/
