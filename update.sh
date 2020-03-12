@@ -7,6 +7,6 @@ git add .
 git ci -m "${version}"
 git push 
 git tag -a "${version}" -m "${version}版本"
-git push —tags
+git push —-tags
 pod repo push TestSpec TestSpec_color.podspec --allow-warnings —-use-libraries 
 pod repo update ~/.cocoapods/repos/TestSpec/
